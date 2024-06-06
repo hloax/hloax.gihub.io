@@ -14,7 +14,7 @@ const createChatLi = (message, className) => {
 }
 
 const generateResponse = (incomingChatLi) => {
-    const API_URL = "https://hloaxp.pythonanywhere.com/chat";
+    const API_URL = "http://127.0.0.1:5000/chat";
     const messageElement = incomingChatLi.querySelector('p');
 
     const requestOptions = {
