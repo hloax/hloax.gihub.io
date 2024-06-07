@@ -20,6 +20,12 @@
     font-size: 1.4rem;
 }
 
+.chatbot-toggler {
+    background-color: blueviolet;
+    position: right;
+    border-radius: 10px 20px;
+}
+
 .chatbot .chatbox {
     height: 510px;
     overflow-y: auto;
@@ -51,6 +57,11 @@
     background: wheat;
 }
 
+.chatbot .chat p.error {
+    color: red;
+    background: whitesmoke;
+}
+
 .chatbot .chat-input {
     position: absolute;
     bottom: 0;
@@ -67,6 +78,7 @@
     width: 100%;
     border: none;
     outline: none;
+    max-height: 180px;
     font-size: 0.95rem;
     resize: none;
     padding: 16px 15px 16px 0;
